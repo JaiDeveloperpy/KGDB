@@ -1,0 +1,14 @@
+# Ignorar a pasta de dados inteira
+data/
+
+# Ignorar ambientes virtuais
+venv/
+.venv/
+env/
+
+# Ignorar lixo de compilação do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de configuração sensíveis
+.env
