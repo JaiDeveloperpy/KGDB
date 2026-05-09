@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-04-26T13:14:24.767933+00:00",
+  "symbol": "WINJ26",
+  "entry_minutes": 15,
+  "years": 1,
+  "result": {
+    "approved": false,
+    "applied": false,
+    "best_params": {
+      "rsi_period": 20,
+      "macd_fast": 11,
+      "macd_slow": 25,
+      "macd_signal": 9,
+      "follow_rsi_min": 38,
+      "follow_rsi_max": 74,
+      "extreme_rsi_low": 17,
+      "extreme_rsi_high": 68,
+      "adx_trend_min": 12,
+      "entry_min_alignment_for_relaxed": 0.6495,
+      "entry_macd_hist_tol_atr_mult": 0.1048,
+      "entry_price_zscore_max_abs": 1.4177,
+      "volatility_min_atr_pct": 0.0002,
+      "mtf_vote_adx_min": 1.3983
+    },
+    "baseline_test_win_rate": 0.4272222222222222,
+    "best_test_win_rate": 0.4262874140174754,
+    "baseline_test_profit_factor": 1.3431316796593789,
+    "best_test_profit_factor": 1.3379925285117278,
+    "baseline_test_total_r": 1057.2105792491766,
+    "best_test_total_r": 1039.0105792491759,
+    "baseline_test_trades": 5400,
+    "best_test_trades": 5379
+  },
+  "backtest": {
+    "path": "C:\\BACKUP 2025\\v2\\backtest_results\\backtest_trades_WINJ26_1y.json",
+    "win_rate_pct": 37.25032425421531,
+    "profit_factor": 1.085952861465147,
+    "total_r": 0.0,
+    "avg_r": 0.043644819872075316,
+    "total_trades": 3855,
+    "winning_trades": 1436,
+    "losing_trades": 2419
+  },
+  "walkforward": {
+    "path": "C:\\BACKUP 2025\\v2\\backtest_results\\walkforward_trades_WINJ26_1y_15m.json",
+    "win_rate_pct": 42.62874140174754,
+    "profit_factor": 1.2808204558871543,
+    "total_r": 1039.0105792491602,
+    "avg_r": 0.19316054643041008,
+    "total_trades": 5379,
+    "winning_trades": 2293,
+    "losing_trades": 3086
+  },
+  "delta": {
+    "win_rate_pct": 5.378417147532232,
+    "profit_factor": 0.1948675944220073,
+    "total_r": 1039.0105792491602,
+    "avg_r": 0.14951572655833478,
+    "total_trades": 1524
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-04-26T13:35:41.812961+00:00",
+  "symbol": "BITJ26",
+  "entry_minutes": 15,
+  "years": 1,
+  "result": {
+    "approved": true,
+    "applied": false,
+    "best_params": {
+      "rsi_period": 15,
+      "macd_fast": 14,
+      "macd_slow": 22,
+      "macd_signal": 9,
+      "follow_rsi_min": 31,
+      "follow_rsi_max": 55,
+      "extreme_rsi_low": 15,
+      "extreme_rsi_high": 78,
+      "adx_trend_min": 20,
+      "entry_min_alignment_for_relaxed": 0.628,
+      "entry_macd_hist_tol_atr_mult": 0.1571,
+      "entry_price_zscore_max_abs": 1.4183,
+      "volatility_min_atr_pct": 0.0007,
+      "mtf_vote_adx_min": 3.5544
+    },
+    "baseline_test_win_rate": 0.4048816843674306,
+    "best_test_win_rate": 0.40625,
+    "baseline_test_profit_factor": 1.2250180396059027,
+    "best_test_profit_factor": 1.2320001353446586,
+    "baseline_test_total_r": 718.037008972976,
+    "best_test_total_r": 731.0370089729761,
+    "baseline_test_trades": 5367,
+    "best_test_trades": 5312
+  },
+  "backtest": {
+    "path": "C:\\BACKUP 2025\\v2\\scripts\\launchers\\..\\..\\backtest_results\\backtest_trades_BITJ26_1y.json",
+    "win_rate_pct": 0.0,
+    "profit_factor": 0.0,
+    "total_r": 0.0,
+    "avg_r": 0.0,
+    "total_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0
+  },
+  "walkforward": {
+    "path": "C:\\BACKUP 2025\\v2\\scripts\\launchers\\..\\..\\backtest_results\\walkforward_trades_BITJ26_1y_15m.json",
+    "win_rate_pct": 40.625,
+    "profit_factor": 1.2818118331755666,
+    "total_r": 731.0370089729477,
+    "avg_r": 0.13761991885786448,
+    "total_trades": 5312,
+    "winning_trades": 2158,
+    "losing_trades": 3154
+  },
+  "delta": {
+    "win_rate_pct": 40.625,
+    "profit_factor": 1.2818118331755666,
+    "total_r": 731.0370089729477,
+    "avg_r": 0.13761991885786448,
+    "total_trades": 5312
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-04-29T09:10:31.515847+00:00",
+  "symbol": "AUDUSD",
+  "entry_minutes": 15,
+  "years": 1,
+  "result": {
+    "approved": false,
+    "applied": false,
+    "best_params": {
+      "rsi_period": 10,
+      "macd_fast": 15,
+      "macd_slow": 31,
+      "macd_signal": 9,
+      "follow_rsi_min": 29,
+      "follow_rsi_max": 75,
+      "extreme_rsi_low": 24,
+      "extreme_rsi_high": 85,
+      "adx_trend_min": 21,
+      "entry_min_alignment_for_relaxed": 0.9063,
+      "entry_macd_hist_tol_atr_mult": 0.1082,
+      "entry_price_zscore_max_abs": 2.1809,
+      "volatility_min_atr_pct": 0.0014,
+      "mtf_vote_adx_min": 5.8422
+    },
+    "baseline_test_win_rate": 0.6923076923076923,
+    "best_test_win_rate": 0.6470588235294118,
+    "baseline_test_profit_factor": 4.050000000000013,
+    "best_test_profit_factor": 3.3000000000000083,
+    "baseline_test_total_r": 12.200000000000054,
+    "best_test_total_r": 13.80000000000005,
+    "baseline_test_trades": 13,
+    "best_test_trades": 17
+  },
+  "backtest": {
+    "path": "C:\\BACKUP 2025\\v2\\backtest_results\\backtest_trades_AUDUSD_1y.json",
+    "win_rate_pct": 36.61417322834646,
+    "profit_factor": 1.2268400644125503,
+    "total_r": 0.0,
+    "avg_r": 0.020925620194042403,
+    "total_trades": 254,
+    "winning_trades": 93,
+    "losing_trades": 161
+  },
+  "walkforward": {
+    "path": "C:\\BACKUP 2025\\v2\\backtest_results\\walkforward_trades_AUDUSD_1y_15m.json",
+    "win_rate_pct": 64.70588235294117,
+    "profit_factor": 2.81903264925196,
+    "total_r": 13.80000000000005,
+    "avg_r": 0.8117647058823559,
+    "total_trades": 17,
+    "winning_trades": 11,
+    "losing_trades": 6
+  },
+  "delta": {
+    "win_rate_pct": 28.091709124594715,
+    "profit_factor": 1.5921925848394098,
+    "total_r": 13.80000000000005,
+    "avg_r": 0.7908390856883135,
+    "total_trades": -237
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-04-26T13:05:55.767989+00:00",
+  "symbol": "WDOK26",
+  "entry_minutes": 15,
+  "years": 1,
+  "result": {
+    "approved": false,
+    "applied": false,
+    "best_params": {
+      "rsi_period": 22,
+      "macd_fast": 10,
+      "macd_slow": 27,
+      "macd_signal": 8,
+      "follow_rsi_min": 23,
+      "follow_rsi_max": 75,
+      "extreme_rsi_low": 22,
+      "extreme_rsi_high": 83,
+      "adx_trend_min": 12,
+      "entry_min_alignment_for_relaxed": 0.8006,
+      "entry_macd_hist_tol_atr_mult": 0.1766,
+      "entry_price_zscore_max_abs": 1.6356,
+      "volatility_min_atr_pct": 0.0016,
+      "mtf_vote_adx_min": 0.187
+    },
+    "baseline_test_win_rate": 0.38528932355338225,
+    "best_test_win_rate": 0.38499486125385407,
+    "baseline_test_profit_factor": 1.1266020161488903,
+    "best_test_profit_factor": 1.1251864869907993,
+    "baseline_test_total_r": 381.93023098163746,
+    "best_test_total_r": 374.5302309816373,
+    "baseline_test_trades": 4908,
+    "best_test_trades": 4865
+  },
+  "backtest": {
+    "path": "C:\\BACKUP 2025\\v2\\scripts\\launchers\\..\\..\\backtest_results\\backtest_trades_WDOK26_1y.json",
+    "win_rate_pct": 33.33333333333333,
+    "profit_factor": 0.9971322977383472,
+    "total_r": 0.0,
+    "avg_r": -0.06666666666665846,
+    "total_trades": 27,
+    "winning_trades": 9,
+    "losing_trades": 18
+  },
+  "walkforward": {
+    "path": "C:\\BACKUP 2025\\v2\\scripts\\launchers\\..\\..\\backtest_results\\walkforward_trades_WDOK26_1y_15m.json",
+    "win_rate_pct": 38.49948612538541,
+    "profit_factor": 1.0561412008968214,
+    "total_r": 374.5302309816378,
+    "avg_r": 0.07698463123980212,
+    "total_trades": 4865,
+    "winning_trades": 1873,
+    "losing_trades": 2992
+  },
+  "delta": {
+    "win_rate_pct": 5.166152792052081,
+    "profit_factor": 0.05900890315847418,
+    "total_r": 374.5302309816378,
+    "avg_r": 0.14365129790646058,
+    "total_trades": 4838
+  }
+}
